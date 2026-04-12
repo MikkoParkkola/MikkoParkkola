@@ -12,6 +12,14 @@ brew tap MikkoParkkola/tap && brew install trvl mcp-gateway nab nowifi
 brew install axterminator
 ```
 
+## Start with the right repo
+
+- **One MCP endpoint for many backends:** [mcp-gateway](https://github.com/MikkoParkkola/mcp-gateway)
+- **Travel search and trip planning:** [trvl](https://github.com/MikkoParkkola/trvl)
+- **Authenticated web fetch, local ASR, or URL watching:** [nab](https://github.com/MikkoParkkola/nab)
+- **macOS GUI automation:** [axterminator](https://github.com/MikkoParkkola/axterminator)
+- **Captive portal bypass:** [nowifi](https://github.com/MikkoParkkola/nowifi)
+
 | Tool | License | Platform | What it does |
 |------|---------|----------|--------------|
 | [trvl](https://github.com/MikkoParkkola/trvl) | Source-available (`PolyForm-Noncommercial-1.0.0`) | macOS, Linux | AI travel agent -- flights, hotels, ferries, 33 MCP tools. Free, no API keys. |
