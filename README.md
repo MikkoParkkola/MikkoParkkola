@@ -22,20 +22,34 @@ brew install axterminator
 
 ## Wire into your AI agent
 
-Claude Code / Cursor / OpenCode -- add to MCP config:
+There are two good setup paths:
+
+1. **Install tools directly into your MCP client** when you only need one or two servers:
+
+   ```bash
+   trvl mcp install --client claude-code
+   nab mcp install --client claude-code
+   axterminator mcp install --client claude-code   # macOS only
+   ```
+
+2. **Use `mcp-gateway` as the front door** when you want one endpoint for many tools:
+
+   ```bash
+   mcp-gateway setup wizard --configure-client
+   mcp-gateway serve
+   ```
+
+If you prefer to edit config by hand, the gateway entry is:
 
 ```json
 {
   "mcpServers": {
-    "trvl":          { "command": "trvl", "args": ["mcp", "serve"] },
-    "axterminator":  { "command": "axterminator", "args": ["mcp", "serve"] },
-    "nab":           { "command": "nab-mcp" },
-    "gateway":       { "type": "http", "url": "http://localhost:39400/mcp" }
+    "gateway": { "type": "http", "url": "http://localhost:39400/mcp" }
   }
 }
 ```
 
-Run `mcp-gateway` first, then point `gateway` at it to get all backends through 4 meta-tools.
+Replace `claude-code` with your client where needed (`cursor`, `vscode`, `zed`, and others are supported in the individual repos).
 
 ## Links
 
