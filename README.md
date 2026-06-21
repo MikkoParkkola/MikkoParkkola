@@ -28,12 +28,12 @@ brew install axterminator
 | Tool | License | Platform | What it does |
 |------|---------|----------|--------------|
 | [trvl](https://github.com/MikkoParkkola/trvl) | Source-available (`PolyForm-Noncommercial-1.0.0`) | macOS, Linux | AI travel agent -- flights, hotels, ferries, 57 MCP tools. Free, no API keys. |
-| [axterminator](https://github.com/MikkoParkkola/axterminator) | Open source (`MIT OR Apache-2.0`) | macOS | macOS GUI automation -- 30 MCP tools, background interaction, audio/camera capture. |
+| [axterminator](https://github.com/MikkoParkkola/axterminator) | Source-available (`PolyForm-Noncommercial-1.0.0`) | macOS | macOS GUI automation -- 30 MCP tools, background interaction, audio/camera capture. |
 | [mcp-gateway](https://github.com/MikkoParkkola/mcp-gateway) | Dual-license (`MIT` + `PolyForm NC` EE modules) | macOS, Linux | Universal MCP gateway -- single endpoint, fixed small tool surface, many backends. |
-| [nab](https://github.com/MikkoParkkola/nab) | Dual-license (`MIT` + `PolyForm NC` EE modules) | macOS, Linux | Token-optimized HTTP client for LLMs -- cookies, anti-bot, ASR, URL watching. |
-| [nowifi](https://github.com/MikkoParkkola/nowifi) | Open source (`GPL-3.0-only`) | macOS, Linux | Captive portal bypass -- one command, 27 techniques, auto-restores on Ctrl+C. |
+| [nab](https://github.com/MikkoParkkola/nab) | Mixed per-file (`MIT` + `PolyForm-NC`) | macOS, Linux | Token-optimized HTTP client for LLMs -- cookies, anti-bot, ASR, URL watching. |
+| [nowifi](https://github.com/MikkoParkkola/nowifi) | Open source (`AGPL-3.0-only`) | macOS, Linux | Captive portal bypass -- one command, 27 techniques, auto-restores on Ctrl+C. |
 | [glyphdown](https://github.com/MikkoParkkola/glyphdown) | Source-available (`PolyForm-Noncommercial-1.0.0`) | macOS, Linux | Token-cost reduction for Claude Code -- lossless output compression, context dedup, stacks on prompt caching. |
-| [translate-browser-extension](https://github.com/MikkoParkkola/translate-browser-extension) | Open source (`GPL-3.0-only`) | Chrome, Firefox | Full-page translation -- 10+ providers, including local offline models via WebAssembly. |
+| [translate-browser-extension](https://github.com/MikkoParkkola/translate-browser-extension) | Open source (`GPL-3.0-or-later`) | Chrome, Firefox | Full-page translation -- 10+ providers, including local offline models via WebAssembly. |
 | [anti-ai-tell](https://github.com/MikkoParkkola/anti-ai-tell) | Open source (`MIT`) | Any AI client | Writing discipline for AI-assisted prose -- prompt constraints, linter, judgment checklist. |
 
 ## Wire into your AI agent
