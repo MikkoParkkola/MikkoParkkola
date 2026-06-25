@@ -44,26 +44,19 @@ Some of these are just good standalone tools:
 | [translate-browser-extension](https://github.com/MikkoParkkola/translate-browser-extension) | Open source (`GPL-3.0-or-later`) | Chrome, Firefox | Full-page translation -- 10+ providers. Handles pages built-in translators fail on; optional on-device model keeps your data off third-party servers. |
 | [anti-ai-tell](https://github.com/MikkoParkkola/anti-ai-tell) | Open source (`MIT`) | Any AI client | Writing discipline for AI-assisted prose -- prompt constraints, linter, judgment checklist. |
 
-## Wire into your AI agent
+## Install with your AI agent
 
-There are two good setup paths:
+Most of these install and wire themselves. Point your agent (Claude Code, Cursor, Windsurf, Codex, or anything with terminal access) at a repo and let it do the work:
 
-1. **Install tools directly into your MCP client** when you only need one or two servers:
+> Read https://github.com/MikkoParkkola/trvl and install it for me.
 
-   ```bash
-   trvl mcp install --client claude-code
-   nab mcp install --client claude-code
-   axterminator mcp install --client claude-code   # macOS only
-   ```
+Swap the URL for any tool on this page. Your agent reads that repo's README, installs the binary, sets up the connection, and verifies it. Usually under a minute.
 
-2. **Use `mcp-gateway` as the front door** when you want one endpoint for many tools:
+**Install the whole set in one prompt:**
 
-   ```bash
-   mcp-gateway setup wizard --configure-client
-   mcp-gateway serve
-   ```
+> Install these tools for me. For each one, read the repo's README first, then follow its setup steps: github.com/MikkoParkkola/trvl, github.com/MikkoParkkola/mcp-gateway, github.com/MikkoParkkola/nab, github.com/MikkoParkkola/nowifi, github.com/MikkoParkkola/axterminator, github.com/MikkoParkkola/glyphdown
 
-If you prefer to edit config by hand, the gateway entry is:
+**Rather do it by hand?** Each repo's README has copy-paste commands. To use `mcp-gateway` as a single front door for everything, the client entry is:
 
 ```json
 {
@@ -72,8 +65,6 @@ If you prefer to edit config by hand, the gateway entry is:
   }
 }
 ```
-
-Replace `claude-code` with your client where needed (`cursor`, `vscode`, `zed`, and others are supported in the individual repos).
 
 ## Links
 
