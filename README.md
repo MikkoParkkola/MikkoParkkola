@@ -35,7 +35,7 @@ Some of these are just good standalone tools:
 
 | Tool | License | Platform | What it does |
 |------|---------|----------|--------------|
-| [trvl](https://github.com/MikkoParkkola/trvl) | Source-available (`PolyForm-Noncommercial-1.0.0`) | macOS, Linux | Travel search and planning -- flights, hotels, trains, ferries, price alerts. One smart `travel` tool + 66 aliases, no API keys. |
+| [trvl](https://github.com/MikkoParkkola/trvl) | Source-available (`PolyForm-Noncommercial-1.0.0`) | macOS, Linux | Travel search and planning -- flights, hotels, trains, ferries, price alerts. 1 smart `travel` MCP tool, natural language, no API keys. |
 | [axterminator](https://github.com/MikkoParkkola/axterminator) | Source-available (`PolyForm-Noncommercial-1.0.0`) | macOS | macOS GUI automation -- 30 tools, background interaction, audio/camera capture. |
 | [mcp-gateway](https://github.com/MikkoParkkola/mcp-gateway) | Dual-license (`MIT` + `PolyForm NC` EE modules) | macOS, Linux | Universal MCP gateway -- single endpoint, fixed small tool surface, many backends. |
 | [nab](https://github.com/MikkoParkkola/nab) | Mixed per-file (`MIT` + `PolyForm-NC`) | macOS, Linux | Token-lean web fetch for LLMs -- cookies, anti-bot reach, transcription, URL watching. |
