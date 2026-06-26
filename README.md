@@ -14,6 +14,13 @@ brew tap MikkoParkkola/tap && brew install trvl mcp-gateway nab nowifi
 brew install axterminator
 ```
 
+`glyphdown` is a Claude Code plugin, not a brew formula:
+
+```bash
+claude plugin marketplace add MikkoParkkola/glyphdown
+claude plugin install glyphdown
+```
+
 ## No AI needed
 
 Some of these are just good standalone tools:
