@@ -4,6 +4,8 @@ Open-source and source-available tools. Most are MCP servers you can wire straig
 
 I build these mostly for the fun of it: small, sharp tools for my own workflows, released once they are useful enough that someone else might want them too.
 
+Browse them all at [mikkoparkkola.github.io](https://mikkoparkkola.github.io).
+
 ```bash
 brew tap MikkoParkkola/tap && brew install trvl mcp-gateway nab nowifi
 ```
