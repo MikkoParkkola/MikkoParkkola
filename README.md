@@ -28,7 +28,7 @@ claude plugin install glyphdown   # or: trvl, anti-ai-tell
 Some of these are just good standalone tools:
 
 - **Stuck behind a hotel or airport wifi login?** [nowifi](https://github.com/MikkoParkkola/nowifi) — one command and you are online.
-- **A page your translator gives up on?** [translate-browser-extension](https://github.com/MikkoParkkola/translate-browser-extension) — translates the pages Google Translate and built-in browser translators fail on, and can run on-device so nothing leaves your browser.
+- **Content your translator skips?** [translate-browser-extension](https://github.com/MikkoParkkola/translate-browser-extension) — translates dynamically loading content that Google Translate and built-in browser translators leave untouched, and can run on-device so nothing leaves your browser.
 - **Planning a trip?** [trvl](https://github.com/MikkoParkkola/trvl) — flights, hotels, trains, ferries, price alerts. No API keys.
 
 ## Start with the right repo
